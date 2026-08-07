@@ -1,18 +1,65 @@
+html{
+    margin: 0;
+    width: 100%;
+}
+
 body{
     font-family: Arial, sans-serif;
     margin: 0%;
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
+
+/*--------------------------------------------*/
 
 header{
-    flex-direction: row;
+    width: 100%;
+
+    background-image: linear-gradient(to bottom,#39722d, #4dc832);
 }
 
-footer{
-    flex-direction: row;
-    height: 175px;
+img{
+    margin: 1%;
+    height: 10%;
+    width: 10%;
+}
+
+/*--------------------------------------------*/
+
+nav{
     width: 100%;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #f0eeee;
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    border:1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding:5px;
+}
+
+/*--------------------------------------------*/
+footer{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    text-align: center;
 
     background-image: linear-gradient(to bottom, #4dc832, #39722d);
 }
@@ -24,12 +71,38 @@ footer img{
 }
 
 footer p{
-    
-    text-align: right;
-    padding: 5px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.fnomes{
-    align-items: right;
-    flex-direction: column;
+/*--------------------------------------------*/
+
+@media (max-width: 1024px) {
+    body{
+        max-width: 1000px; /* Evita que o texto fique largo demais no PC */
+        margin: 0 auto;    /* Centraliza o conteúdo no meio da tela */
+        text-align: left;  /* Alinhamento padrão de leitura em desktop */
+    }
+    nav{
+    max-width: 100%;;
+    background-color: #3dfc40;
+    }
+
+
+    nav ul {
+        justify-content: flex-start; /* Menu alinhado à esquerda no PC */
+        padding-left: 50px;
+    }
+    
+}
+@media (min-width: 600px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main {
+        padding: 40px;
+    }
 }
