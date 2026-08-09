@@ -1,6 +1,7 @@
 html{
     margin: 0;
     width: 100%;
+    min-height: 100%;
 }
 
 body{
@@ -8,37 +9,71 @@ body{
     margin: 0%;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
 }
 
 /*--------------------------------------------*/
 
 header{
+    display: flex;
     width: 100%;
-
     background-image: linear-gradient(to bottom,#39722d, #4dc832);
+}
+
+
+h1{
+    font-size: xx-large;
+    text-align: center;
 }
 
 img{
     margin: 1%;
     height: 10%;
-    width: 10%;
+    width: 20%;
+}
+
+
+header div{
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+    color: #000000;
+}
+
+.btnsin a{
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+
+
+.btnent a{
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #54ff6a;
+}
+
+.btnsou a{
+    font-size: x-large;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #cf2b1b;
 }
 
 /*--------------------------------------------*/
 
 nav{
+
+    flex-direction: row;
     width: 100%;
 }
 
-a{
-    text-decoration: none;
-    border-radius: 5px;
-}
 
-a:hover{
-    background-color: #f0eeee;
-}
 
 nav ul {
     display:flex;
@@ -54,8 +89,13 @@ nav a {
     padding:5px;
 }
 
+nav a:hover{
+    background-color: #f0eeee;
+}
+
 /*--------------------------------------------*/
 footer{
+
     display: flex;
     height: 10%;
     width: 100%;
@@ -84,11 +124,28 @@ footer p{
         margin: 0 auto;    /* Centraliza o conteúdo no meio da tela */
         text-align: left;  /* Alinhamento padrão de leitura em desktop */
     }
+
+
     nav{
     max-width: 100%;;
     background-color: #3dfc40;
     }
 
+    .btnsin a{
+        font-size: medium;
+    }
+    .btnent a{
+        font-size: medium;
+    }
+    .btnsou a{
+        font-size: medium;
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    
 
     nav ul {
         justify-content: flex-start; /* Menu alinhado à esquerda no PC */
@@ -101,6 +158,8 @@ footer p{
         display: flex;
         justify-content: center;
     }
+    
+
     
     main {
         padding: 40px;
