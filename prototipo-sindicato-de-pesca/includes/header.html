@@ -10,9 +10,7 @@
     <body>
         <style>
 
-            footer a{
-                text-decoration: none;
-            }
+            
 
             header a{
                 text-decoration: none;
@@ -56,9 +54,26 @@
               color:#ffff;
             }
 
+            li a:hover{
+              color:#94e264;
+            }
+
+            nav{
+              text-align: center;
+            }
+
+            i {
+              background-color: #ffff;
+            }
+
             small{
               font-size: xx-large;
             }
+
+            footer a{
+                text-decoration: none;
+            }
+
             @media (min-width: 600px) {
               nav{
                 align-items: center;
@@ -82,35 +97,41 @@
             </a>
 
             <div class="d-flex align-items-center">
-              <button type="button" class="btnverde">
-                Criar conta
-              </button>
-
-              <button type="button" class="btnazul">
-                Entrar
-              </button>
+              <a href="#">
+                <button type="button" class="btnverde">
+                  Criar conta
+                </button>
+              </a>
               
-              <button type="button" class="btnvermelho">
-                Sair
-              </button>
+              <a href="#">
+                <button type="button" class="btnazul">
+                  Entrar
+                </button>
+              </a>
+
+              <a href="#">
+                <button type="button" class="btnvermelho">
+                  Sair
+                </button>
+              </a>
             </div>
 
 
-            <form class="d-flex input-group w-auto">
-              <input
-                type="search"
-                class="form-control rounded"
-                placeholder="Search"
-                aria-label="Search"
-                aria-describedby="search-addon"
-              />
-              <span class="input-group-text border-0" id="search-addon">
-                <i class="fas fa-search"></i>
-              </span>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+
+                  <button class="btn btn-default" type="submit">
+                    <a href="#"><img src="../imagens/lupa.png"></a>
+                  </button>
+                  
+                </div>
+              </div>
+
             </form>
           </div>
-
-          
         </nav>
 
         
@@ -142,22 +163,3 @@
           </div>
         </nav>
       </header>
-
-      
-        <footer class="bg-body-tertiary text-center">
-            <div class="container p-4"></div>
-
-          
-            <div class="text-center p-3" style="background-image: linear-gradient(to bottom, #4dc832, #39722d)">
-                ©S.P.Et:
-              <a class="text-body">Este trabalho foi realizado pelos alunos:
-                Hector,  <!--Hector, coloca o seu nome inteiro-->
-                Rhael Machado Meireles, 
-                Ricardo de Godoy Ribeiro Junior.</a>
-            </div>
-          </footer>
-        
-        
-        </body>
-        </html>
-        
