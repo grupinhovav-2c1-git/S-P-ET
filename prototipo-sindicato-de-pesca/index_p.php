@@ -168,18 +168,36 @@
         </nav>
       </header>
 
-      <footer class="bg-body-tertiary text-center">
-        <div class="container p-4"></div>
-
-        <div class="text-center p-3" style="background-image: linear-gradient(to bottom, #4dc832, #39722d)">
-            ©S.P.Et:
-        <a class="text-body">Este trabalho foi realizado pelos alunos:
-            Hector,  <!--Hector, coloca o seu nome inteiro-->
-            Rhael Machado Meireles, 
-            Ricardo de Godoy Ribeiro Junior.</a>
+        <div class="d-flex justify-content-center align-items-center " style="margin-top: 6%; margin-bottom: 6%;">
+          <div  style="background-image:linear-gradient(to bottom,#39722d, #4dc832); text-align: center; padding:1%">
+            <h1>Sindicato de pesca</h1>
+            <h4>Ideia Inicial: </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eligendi vel veritatis voluptatibus, suscipit nesciunt cumque saepe ratione quasi veniam,<br>id labore amet. Quis accusantium quas officia alias nihil sequi? Blanditiis?</p>
+            <h4>Temporadas de Pesca</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eligendi vel veritatis voluptatibus, suscipit nesciunt cumque saepe ratione quasi veniam,<br>id labore amet. Quis accusantium quas officia alias nihil sequi? Blanditiis?</p>
+            <h4>Informações</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eligendi vel veritatis voluptatibus, suscipit nesciunt cumque saepe ratione quasi veniam,<br>id labore amet. Quis accusantium quas officia alias nihil sequi? Blanditiis?</p>
+            <h4>Campeonatos</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eligendi vel veritatis voluptatibus, suscipit nesciunt cumque saepe ratione quasi veniam,<br>id labore amet. Quis accusantium quas officia alias nihil sequi? Blanditiis?</p>
+          </div>
         </div>
-    </footer>
-    
-    
-</body>
+        
+
+
+
+
+        <footer class="bg-body-tertiary text-center">
+            <div class="container p-4"></div>
+
+            <div class="text-center p-3" style="background-image: linear-gradient(to bottom, #4dc832, #39722d)">
+                ©S.P.Et:
+            <a class="text-body">Este trabalho foi realizado pelos alunos:
+                Hector,  <!--Hector, coloca o seu nome inteiro-->
+                Rhael Machado Meireles, 
+                Ricardo de Godoy Ribeiro Junior.</a>
+            </div>
+        </footer>
+        
+        
+    </body>
 </html>

@@ -167,7 +167,6 @@
           </div>
         </nav>
       </header>
-
       <footer class="bg-body-tertiary text-center">
         <div class="container p-4"></div>
 
