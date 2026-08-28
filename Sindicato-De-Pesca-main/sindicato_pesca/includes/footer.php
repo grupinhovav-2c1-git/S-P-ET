@@ -1,6 +1,17 @@
-        </main>
-    <footer>
+
+</main>
+        <footer class="bg-body-tertiary text-center">
+            <div class="container p-4"></div>
+
+            <div class="text-center p-3" style="background-image: linear-gradient(to bottom, #4dc832, #39722d)">
+                ©S.P.Et:
+            <a class="text-body">Este trabalho foi realizado pelos alunos:
+                Hector,  <!--Hector, coloca o seu nome inteiro-->
+                Rhael Machado Meireles, 
+                Ricardo de Godoy Ribeiro Junior.</a>
+            </div>
+        </footer>
         
-    </footer>
-</body>
+        
+    </body>
 </html>

@@ -86,7 +86,7 @@
         
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: linear-gradient(to bottom,#39722d, #4dc832)">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index_p.html">
               <img
                 src="imagens/Logo_S-P-ET.png"
                 class="me-2"
@@ -98,19 +98,19 @@
             </a>
 
             <div class="d-flex align-items-center">
-              <a href="criar_conta.php">
+              <a href="criar_conta.html">
                 <button type="button" class="btnverde">
                   Criar conta
                 </button>
               </a>
               
-              <a href="entrar.php">
+              <a href="entrar.html">
                 <button type="button" class="btnazul">
                   Entrar
                 </button>
               </a>
 
-              <a href="logout.php">
+              <a href="entrar.html">
                 <button type="button" class="btnvermelho">
                   Sair
                 </button>
@@ -142,26 +142,44 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item" style="color: #ffff;">
-                  <a href="index.php">Início</a>
+                  <a href="index_p.html">Início</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Login</a>
                 </li>
                 <li class="breadcrumb-item active" style="color: #ffff;" aria-current="page">
-                  <a href="competicoes.php">Competições</a>
+                  <a href="#">Competições</a>
                 </li>
                 <li class="breadcrumb-item" style="color: #ffff;" >
-                  <a href="comunidade.php">Comunidade</a>
+                  <a href="#">Comunidade</a>
                 </li>
                 <li class="breadcrumb-item" style="color: #ffff;" >
-                  <a href="temporadas.php">Temporada</a>
+                  <a href="#">Temporada</a>
                 </li>
                 <li class="breadcrumb-item active" style="color: #ffff;"  aria-current="page">
-                  <a href="shopping.php">Shopping</a>
+                  <a href="#">Shopping</a>
                 </li>
                 <li class="breadcrumb-item active" style="color: #ffff;"  aria-current="page">
-                  <a href="sugestao.php">Sugestão</a>
+                  <a href="#">Sugestão</a>
                 </li>
               </ol>
             </nav>
           </div>
         </nav>
       </header>
-      <main>
+
+      <footer class="bg-body-tertiary text-center">
+        <div class="container p-4"></div>
+
+        <div class="text-center p-3" style="background-image: linear-gradient(to bottom, #4dc832, #39722d)">
+            ©S.P.Et:
+        <a class="text-body">Este trabalho foi realizado pelos alunos:
+            Hector,  <!--Hector, coloca o seu nome inteiro-->
+            Rhael Machado Meireles, 
+            Ricardo de Godoy Ribeiro Junior.</a>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

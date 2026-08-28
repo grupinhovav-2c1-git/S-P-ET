@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 14/08/2026 às 16:03
+-- Tempo de geração: 28/08/2026 às 16:03
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -55,6 +55,19 @@ CREATE TABLE `produtos` (
   `Categoria` varchar(50) NOT NULL,
   `Valor` decimal(8,0) NOT NULL,
   `Marca` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `sugetao`
+--
+
+CREATE TABLE `sugetao` (
+  `Nome_usuario` int(11) NOT NULL,
+  `Nome_peixe` int(11) NOT NULL,
+  `localidade_ usuario` int(11) NOT NULL,
+  `localidade_peixe` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
