@@ -6,13 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sindicato de Pesca EtecVav</title>
-    </head>
-
-    <body>
         <style>
-
-           
-
             header a{
                 text-decoration: none;
                 color: #09190b;
@@ -82,11 +76,15 @@
             }
 
         </style>
+    </head>
+
+    <body>
+        
        <header>
         
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: linear-gradient(to bottom,#39722d, #4dc832)">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index_p.html">
+            <a class="navbar-brand" href="index.html">
               <img
                 src="imagens/Logo_S-P-ET.png"
                 class="me-2"
@@ -110,7 +108,7 @@
                 </button>
               </a>
 
-              <a href="entrar.html">
+              <a href="logout.html">
                 <button type="button" class="btnvermelho">
                   Sair
                 </button>
@@ -142,25 +140,22 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item" style="color: #ffff;">
-                  <a href="index_p.html">Início</a>
-                </li>
-                <li class="breadcrumb-item">
-                  <a href="#">Login</a>
+                  <a href="index.html">Início</a>
                 </li>
                 <li class="breadcrumb-item active" style="color: #ffff;" aria-current="page">
-                  <a href="#">Competições</a>
+                  <a href="competicoes.html">Competições</a>
                 </li>
                 <li class="breadcrumb-item" style="color: #ffff;" >
-                  <a href="#">Comunidade</a>
+                  <a href="comunidade.html">Comunidade</a>
                 </li>
                 <li class="breadcrumb-item" style="color: #ffff;" >
-                  <a href="#">Temporada</a>
+                  <a href="temporadas.html">Temporada</a>
                 </li>
                 <li class="breadcrumb-item active" style="color: #ffff;"  aria-current="page">
-                  <a href="#">Shopping</a>
+                  <a href="shopping.html">Shopping</a>
                 </li>
                 <li class="breadcrumb-item active" style="color: #ffff;"  aria-current="page">
-                  <a href="#">Sugestão</a>
+                  <a href="sugestao.html">Sugestão</a>
                 </li>
               </ol>
             </nav>
@@ -168,13 +163,10 @@
         </nav>
       </header>
 
-        <div class="d-flex justify-content-center align-items-center " style="margin-top: 6%; margin-bottom: 6%;">
-          <div  style="background-image:linear-gradient(to bottom,#39722d, #4dc832); text-align: center; padding:1%">
-            <h1>Sindicato de pesca</h1>
-            <h4>Crie sua conta </h4>
-            <p>Crie sua conta para ter acesso as muitas funcionalidades da S.P.Et </p>
-          
-            <form>
+        <div class="d-flex justify-content-center align-items-center" style="margin-top: 6%; margin-bottom: 6%;">
+          <div style="background-image:linear-gradient(to bottom,#39722d, #4dc832); text-align: center; padding:1%">
+
+            <form method="POST">
               <table>
                 <thead>
                   <tr>
@@ -186,20 +178,30 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row"><label>Email:</label></th>
-                    <td colspan="3"><input type="email" id="email" name="email" style="width: 80%;"></td>
+                    <th> <img src="imagens/Logo_S-P-ET.png" class="me-2" height="100" alt="S.P.Et Logo" loading="lazy"/> 
+                    </th>
+                    <td colspan="3"> <h1>Sindicato de pesca</h1>
+                      <h4> Crie sua conta </h4>
+                      <p>Crie sua conta para ter acesso as muitas funcionalidades da S.P.Et </p>
+                    </td>
                   </tr>
                   <tr>
-                    <th scope="row" ><label>Nome:</label></th>
-                    <td><input type="text" id="name" name="name"></td>
-                    <th scope="row"><label>Senha:</label></th>
-                    <td><input type="password" id="password" name="password"></td>
+                    <th scope="row"><label for="email">Email:</label></th>
+                    <td colspan="3"><input type="email" id="email" name="email" style="width: 80%;" required></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><label for="name">Nome:</label></th>
+                    <td><input type="text" id="name" name="name" required></td>
+                    <th scope="row"><label for="password">Senha:</label></th>
+                    <td><input type="password" id="password" name="password" required></td>
                   </tr>
                 </tbody>
               </table>
-              
+              <br>
+              <button type="submit" class="btnazul">
+                Criar
+              </button>
             </form>
-
           </div>
         </div>
         
